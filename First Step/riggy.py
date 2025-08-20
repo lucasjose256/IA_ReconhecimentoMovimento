@@ -6,7 +6,7 @@ config_file = 'configs/hrnet/hrnet_w32_coco_256x192.py'
 checkpoint_file = 'checkpoints/hrnet_w32_coco_256x192.pth'
 model = init_pose_model(config_file, checkpoint_file)
 
-img_path = 'imagem1.jpeg'
+img_path = '../imagem1.jpeg'
 image = cv2.imread(img_path)
 
 person_bboxes = [{'bbox': [50, 50, 200, 400]}]

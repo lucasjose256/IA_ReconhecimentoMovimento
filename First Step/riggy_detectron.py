@@ -16,7 +16,7 @@ cfg.MODEL.DEVICE = "cpu"
 predictor = DefaultPredictor(cfg)
 
 
-img_path = '../imagem2.jpeg'
+img_path = 'Users/lucasbarszcz/PycharmProjects/ReconhecimentoMovimento/First Step/plank_images_103.png'
 image = cv2.imread(img_path)
 outputs = predictor(image)
 
